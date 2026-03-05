@@ -1,58 +1,4 @@
 /* Bismiallah let's start  */
-/*
-#include <stdio.h>
-#include <cs50.h>
-
-int main()
-{
-
-   char Location [30];
-   get_string("Where you located at? ");
-   fflush (stdou.h);
-if (location) == "Denmark\n"
-{
-    printf ( "%s!!", "Very good place to be!! huuh?\n")
-}
-else if (location) == "Iceland\n" 
-{
-    scanf ("How is the wheather out there?")
-}
-
-
-return (0)
-}
-
-
-*/
-
-/*
-
-#include <stdio.h>
-#include <string.h>
-int main()
-{
-
-    char Location [20];
-
-    fgets("where you located at? \n"); 
-    if (strcmp(Location, "Denmark")==0)
-    {
-        printf("%s!", "Really, what a good place to be!\n");
-    }
-    else if (strcmp(Location, "Swizz")==0)
-    {
-        printf("Some say" "/The heaven of the earth/");
-    }
-    else
-     {
-        printf("I haven't heard that Country\n")
-    }
-
-
-return 0;
-}
-
-*/
 
 
 
@@ -71,7 +17,7 @@ int main(void)      // Halkaani weeyaan halka uu ka bilaawdo C program //
 // inatana, waxaynu rabnaa ruuxa arki doono program-kan in aynu waydiino Su'aal //
    
     fgets (Location, sizeof(Location), stdin);  
-    // fgets --> " Howshaydu waxa weeyaan in ay aqriso a line of text from an input stream which is 'stdin' dabadeed waxa ay ku keedinaysaa character arry which in out case 'Location'    <---         "
+    // fgets --> " Howshaydu waxa weeyaan in ay aqriso a line of text from an input stream which is 'stdin' dabadeed waxa ay ku keedinaysaa character array which in out case 'Location'    <---         "
               
                 //sizeof(Location) → the maximum number of characters to read//
     
@@ -84,13 +30,7 @@ int main(void)      // Halkaani weeyaan halka uu ka bilaawdo C program //
 
 ---- Cleans up the input for safe use                           
 
-                                    [FROM CHATGPT]
-
-Perfect! Let’s clearly show **the difference before and after removing the newline**.
-
-We have this code:
-
-```c
+                           
 char Location[30];
 fgets(Location, sizeof(Location), stdin);
 
@@ -164,12 +104,6 @@ After: You typed: Paris
 Clean, no extra line.
 
 ---
-
-So the **newline from Enter** is the culprit for the extra line in output.
-
-If you want, I can make a **quick diagram showing both memory layouts and outputs side by side** — it’s super visual. Do you want me to do that?
-
-
 */    
     
     if (strcmp(Location, "Swittzerland") == 0)
@@ -209,6 +143,8 @@ Return Value	Meaning
 0	str1 is exactly equal to str2
 <0	str1 is less than str2 (first differing character has smaller ASCII value)
 >0	str1 is greater than str2 (first differing character has larger ASCII value)
+
+
 Why == 0 in if?
 
 We only want the code block to run when the two strings are exactly equal.
@@ -236,8 +172,8 @@ If it’s 0 → execute the if block
 {
     printf (" I haven't heard that country in my life!\n");
 }
-// Hadii labadii aynu horay usoo sheegnay midna usan ahayn 
-//waxaa execute lagu samaynayaa code else statement hoostiisa ku jidho 
+// Hadii labadii aynu horay usoo sheegnay midna usan "True" sax ahayn
+//waxaa execute lagu samaynayaa code else statement hoostiisa ku jidho  
 
 
 return 0;
