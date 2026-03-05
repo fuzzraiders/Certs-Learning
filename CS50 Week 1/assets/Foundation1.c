@@ -1,21 +1,9 @@
-/* In the name of Allah, the Most Gracious, the Most Merciful. We are starting to learn the C programming language!                                                                       with CS50 conducted by Mr.David Malan */
+/* In the name of Allah, the Most Gracious, the Most Merciful. We are starting to learn the C programming language with CS50 conducted by Mr.David Malan *//*
 
-/*
-#include <stdio.h>
-#include <string.h> 
-int main ()
-{
-      char name [20];
-      printf("What's you name? "); 
-      fgets (name, sizeof(name), stdin);
-      name [strcspn(name, "\n")] = '\0';
-      printf ("Hello, %s!\n", name);
+// I’m enthusiastic about starting my journey in C programming, 
+// aiming to become a skilled exploit developer and make meaningful contributions to my team, Fuzzraiders //
 
-printf ( "I’m enthusiastic about starting my journey in C programming, aiming to become a skilled exploit developer and make meaningful contributions to my team, Fuzzraiders\n"); 
 
-}
-
-*/
 
 #include <stdio.h>
 #include <string.h> 
