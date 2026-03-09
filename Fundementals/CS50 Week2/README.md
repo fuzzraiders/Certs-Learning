@@ -169,9 +169,8 @@ RAM is:
 
 We can imagine RAM as a **large grid of tiny storage locations**, where each square represents **one byte**.
 
-<p align="center">
-  <img src="file:///home/Obania_iguro/Pictures/photo%20memory.webp" width="700">
-</p>
+
+![image](assets/photo%20memory.png)
 
 Different data types occupy different numbers of bytes.
 
