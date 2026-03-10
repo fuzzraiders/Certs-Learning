@@ -21,12 +21,38 @@ All content is written with clarity and intentional scope. Topics are divided in
 ```
 LEARNING/
 ├── README.md
+│
 ├── Fundamentals/
+│   │
+│   ├── Programming/
+│   │   ├── C/
+│   │   ├── Python/
+│   │   ├── Assembly/
+│   │   ├── C++/
+│   │   └── C#/
+│   │
+│   ├── Scripting/
+│   │   ├── Bash/
+│   │   └── PowerShell/
+│   │
+│   ├── Networking/
+│   └── Linux/
+│
 ├── Web/
-├── Internal/
-├── Cloud/
+│   └── JavaScript/
+│
 ├── Mobile/
-└── Exploitation/
+│   └── Java/
+│
+├── Internal/
+│
+├── Cloud/
+│
+├── Exploit/
+│
+├── Reverse/
+│
+└── Evasion/
 ```
 
 Each directory represents a major security domain. Subtopics inside each folder are designed to build knowledge progressively, from core principles to practical application.
