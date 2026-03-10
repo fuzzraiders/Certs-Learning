@@ -2,7 +2,7 @@
 ![metadata](assets/badges/learning-metadata.svg)
 ![division](assets/badges/learning-division.svg)
 
-This write-up explores my journey into x86-64 assembly, with an emphasis on how CPUs execute instructions and developing a foundation in low-level programming. It functions as both a personal record and a guide for beginners.
+This write-up explores my journey into x86-64 assembly, with an emphasis on how CPUs execute instructions and developing a foundation in low-level programming. It functions as both a personal record and a guide for beginners like me.
 
 ---
 
