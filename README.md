@@ -22,27 +22,26 @@ All content is written with clarity and intentional scope. Topics are divided in
 LEARNING/
 ├── README.md
 │
-├── Fundamentals/
+├── Fundamentals
+│   ├── Programming
+│   │   ├── C
+│   │   ├── Python
+│   │   ├── C++
+│   │   ├── C#
+│   │   ├── Java
+│   │   ├── Kotlin
+│   │   └── Assembly
 │   │
-│   ├── Programming/
-│   │   ├── C/
-│   │   ├── Python/
-│   │   ├── Assembly/
-│   │   ├── C++/
-│   │   └── C#/
+│   ├── Scripting
+│   │   ├── Bash
+│   │   └── PowerShell
 │   │
-│   ├── Scripting/
-│   │   ├── Bash/
-│   │   └── PowerShell/
-│   │
-│   ├── Networking/
-│   └── Linux/
+│   ├── Networking
+│   └── Linux
 │
 ├── Web/
-│   └── JavaScript/
 │
 ├── Mobile/
-│   └── Java/
 │
 ├── Internal/
 │
