@@ -122,7 +122,8 @@ This is **why hexadecimal numbers can be ambiguous at a glance**.
 ### Hexadecimal Notation with `0x`
 
 To avoid confusion, programmers **prefix hex numbers with `0x`**:
-![image](/CS50x%20Week4%20Memory/assets/cs50Week4%200x%20prefix.png)
+
+![image](assets/cs50Week4%200x%20prefix.png)
 
 Here’s what each part means:
 
