@@ -21,33 +21,21 @@ These concepts are fundamental for:
 - Reverse engineering  
 - Debugging  
 
-> ⚠️ **Note:** This write-up is not just informational. Throughout the sections, questions are provided to help test your understanding and reinforce the concepts learned.
+## ⚠️ **Note:** This write-up is not just informational. Throughout the sections, questions are provided to help test your understanding and reinforce the concepts learned.
 
 ---
-
 ## 📚 Table of Contents
-Course Intro  
-Intro to Computer Engineering  
-8086 Development Setup  
-Registers, MOV and Interrupts  
-Interacting With Memory  
-Arithmetic Operations  
-Accepting User Input  
-Conditional Statements  
-Loops  
-Functions  
 
----
-
-## 1️⃣ Course Intro
-
-This section introduces the purpose of learning assembly.
-
-Key ideas:
-- Assembly explains how programs work internally  
-- It is important for low-level understanding and security  
-- Course structure and resources are provided  
-
+1. [Course Intro](#1️⃣-course-intro)  
+2. [Intro to Computer Engineering](#2️⃣-intro-to-computer-engineering)  
+3. [8086 Development Setup](#3️⃣-8086-development-setup)  
+4. [Registers, MOV and Interrupts](#4️⃣-registers-mov-and-interrupts)  
+5. [Interacting With Memory](#5️⃣-interacting-with-memory)  
+6. [Arithmetic Operations](#6️⃣-arithmetic-operations)  
+7. [Accepting User Input](#7️⃣-accepting-user-input)  
+8. [Conditional Statements](#8️⃣-conditional-statements)  
+9. [Loops](#9️⃣-loops)  
+10. [Functions](#🔟-functions)
 **💡 Question:** Why is understanding assembly important for exploit development compared to high-level programming?
 
 ---
