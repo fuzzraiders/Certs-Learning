@@ -82,7 +82,7 @@ CPU follows a cycle which looks like this:
 
 ![image](/assets/cycle.webp) 
 
-
+![alt text](/assets/cycle.webp
 
 Example flow:
 
