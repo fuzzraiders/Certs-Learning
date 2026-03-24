@@ -56,8 +56,7 @@ These concepts are fundamental for:
 
 0 1 2 3 4 5 6 7 8 9 A B C D E F
 
-![image ](/assets/Hex%20&%20decimal.webp)
-
+![alt text](<assets/Hex & decimal.webp>)
 
 
 💡 Hex is commonly used to represent memory addresses.
@@ -79,8 +78,8 @@ These concepts are fundamental for:
 CPU follows a cycle which looks like this:
 
 
+![alt text](assets/cycle.webp)
 
-![image](/assets/cycle.webp) 
 
 ![alt text](/assets/cycle.webp
 
