@@ -36,12 +36,40 @@ These concepts are fundamental for:
 8. [Conditional Statements](#8️⃣-conditional-statements)  
 9. [Loops](#9️⃣-loops)  
 10. [Functions](#🔟-functions)
+ 
 
-
-    
-**💡 Question:** Why is understanding assembly important for exploit development compared to high-level programming?
 
 ---
+
+#1️⃣ Course Intro
+What Is This Course?
+
+The Assembly 101 course by TCM Security introduces x86 assembly and focuses on understanding how programs actually run at the CPU level.
+
+What You Learn
+How instructions are executed step-by-step
+How low-level code differs from high-level languages
+Why understanding assembly is important for security
+Key Idea
+
+High-level code:
+
+x = a + b
+
+Assembly breaks it down:
+
+mov ax, a
+add ax, b
+
+You control every instruction the CPU executes.
+
+💡 Question: Why does breaking a simple operation into multiple instructions help you better understand program execution?
+
+
+
+---
+
+
 
 ## 2️⃣ Intro to Computer Engineering
 
