@@ -88,6 +88,7 @@ You control every instruction the CPU executes.
 0 1 2 3 4 5 6 7 8 9 A B C D E F
 
 
+![image](<assets/Hex & decimal.webp>)
 
 
 
@@ -112,8 +113,6 @@ CPU follows a cycle which looks like this:
 
 ![alt text](assets/cycle.webp)
 
-
-![alt text](/assets/cycle.webp
 
 Example flow:
 
