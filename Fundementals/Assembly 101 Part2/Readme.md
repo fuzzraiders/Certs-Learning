@@ -1,4 +1,9 @@
+![alt text](assets/badges/learning-header.svg)
+![alt text](assets/badges/learning-metadata.svg)
+![alt text](assets/badges/learning-division.svg)
+
 # 🧠 x86-64 Assembly — Part 2 (Security & Exploits)
+
 
 ## 📌 Overview
 
@@ -12,16 +17,17 @@ You’ll move from:
   → to
 * Debugging, analyzing, and exploiting programs
 
+
 ---
 
 ## 📚 Table of Contents
 
-* x86-16 Capstone Challenge
-* Intro to x86-64
-* x86-64 Functions
-* The Cyber Mentor Coding Challenge — x86-64 Assembly Version
-* Memory Safety
-* Course Outro
+1. [x86-16 Capstone Challenge](#1️⃣-x86-16-capstone-challenge)
+2. [Intro to x86-64](#2️⃣-intro-to-x86-64)
+3. [x86-64 Functions](#3️⃣-x86-64-functions)
+4. [The Cyber Mentor Coding Challenge — x86-64 Assembly Version](#4️⃣-the-cyber-mentor-coding-challenge-—-x86-64-assembly-version)
+5. [Memory Safety](#5️⃣-memory-safety)
+6. [Course Outro](#6️⃣-course-outro)
 
 ---
 
@@ -334,7 +340,7 @@ Basic structure of an assembly program.
 
 You directly read/write memory locations.
 
-👉 No abstractions—everything is manual.
+--> No abstractions—everything is manual.
 
 ---
 
@@ -342,7 +348,7 @@ You directly read/write memory locations.
 
 Memory must be aligned (usually 16 bytes).
 
-👉 If not:
+--> If not:
 
 * Performance issues
 * Possible crashes
@@ -400,7 +406,7 @@ This means:
 
 > Store value `5` in a local variable
 
-👉 `[rbp-8]` is just a memory location inside the function’s stack frame.
+-->  `[rbp-8]` is just a memory location inside the function’s stack frame.
 
 ---
 
@@ -419,7 +425,7 @@ leave
 ret
 ```
 
-👉 The stack is cleaned → variables are gone
+--> The stack is cleaned → variables are gone
 
 ---
 
@@ -456,7 +462,7 @@ Here:
 mov rax, msg
 ```
 
-👉 Loads the address of `msg`
+-->  Loads the address of `msg`
 
 ---
 
@@ -500,8 +506,7 @@ Understanding this difference is critical for exploitation.
 * Vulnerable to:
 
   * Buffer overflows
-
-👉 This is where most exploits happen
+--> This is where most exploits happen
 
 ---
 
@@ -574,7 +579,7 @@ You are expected to:
 * Think independently
 * Apply all learned concepts
 
-👉 This simulates real-world problem solving.
+--> This simulates real-world problem solving.
 
 💡 **Question:** What part of the challenge required the most debugging?
 
@@ -605,7 +610,7 @@ Now you:
 * Overflow it
 * Watch memory change
 
-👉 You *see* the vulnerability happen
+--> You *see* the vulnerability happen
 
 ---
 
@@ -643,7 +648,7 @@ You create payloads that:
 
 Some bytes break exploits (like NULL).
 
-👉 You must carefully craft input.
+--> You must carefully craft input.
 
 ---
 
@@ -720,6 +725,12 @@ Together:
 
 As a last word, I would like to say:
 
-“Once you understand how software breaks, you’ll never look at code the same way again.”
-
+**“Once you understand how software breaks, you’ll never look at code the same way again.”**
 ---
+
+
+![disclaimer](assets/badges/fuzzraiders-disclaimer.svg)
+
+# Author: [QQQ](#)
+
+![Ownership](assets/badges/fuzzraiders-Ownership.svg)
