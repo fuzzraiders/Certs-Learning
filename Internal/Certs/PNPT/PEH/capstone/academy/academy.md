@@ -343,8 +343,6 @@ Academy demonstrates how a series of individually low-severity issues — anonym
 
 This is the exact methodology pattern tested in the PNPT exam: enumerate everything, document findings as you go, and chain small wins into full access.
 
----
-
 <div align="center">
 
 ![Ownership Notice](../../../../../Assets//fuzzraiders-Ownership.svg)
