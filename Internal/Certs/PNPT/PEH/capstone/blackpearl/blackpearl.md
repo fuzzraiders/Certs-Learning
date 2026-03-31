@@ -14,7 +14,6 @@
 </div>
 
 
-
 ## 📌 Overview
 
 Blackpearl is a deliberately vulnerable Linux machine from TCM Security's Practical Ethical Hacking course. Its primary lesson is **Virtual Host Routing** — a technique used extensively in CTF environments and real-world web infrastructure where a single IP serves multiple domains based on the HTTP Host header.
@@ -325,8 +324,6 @@ This work is part of **FuzzRaiders**' structured hands-on training and research 
 
 Happy hacking 🚀
 
----
-
 <div align="center">
 
 ![Ownership Notice](../../../../../Assets/Assets/fuzzraiders-Ownership.svg)
@@ -338,5 +335,3 @@ Happy hacking 🚀
 ---
 
 ### Author: Stager
-
-### Role: Internal Penetration Tester — FuzzRaiders
