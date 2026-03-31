@@ -1,7 +1,11 @@
+<div align="center">
 
-<div align="left"> <img src="https://img.shields.io/badge/FuzzRaiders_Team_Member-0a66ff?style=flat-square&logo=github" /> <img src="https://img.shields.io/badge/Stager-0f172a?style=flat-square" /> <img src="https://img.shields.io/badge/🎯%20Role-Internal_Penetration_Tester-1e293b?style=flat-square" /> <img src="https://img.shields.io/badge/📜%20Certification-PNPT_(TCM_Security)-334155?style=flat-square" /> <img src="https://img.shields.io/badge/🟢%20Status-Completed-16a34a?style=flat-square" /> </div>
+![FuzzRaiders Member Card](../../../../../Assets//fuzzraiders-Member.svg)
 
-# TCM Security — Capstone: Blackpearl
+</div>
+
+---
+
 
 <div align="left">
 
@@ -9,7 +13,7 @@
 
 </div>
 
----
+
 
 ## 📌 Overview
 
@@ -320,6 +324,16 @@ Without discovering `blackpearl.tcm` through DNS enumeration and source code ins
 This work is part of **FuzzRaiders**' structured hands-on training and research program, where every lab, project, and technical study is formally documented, reviewed, and validated to ensure real-world applicability and methodological rigor.
 
 Happy hacking 🚀
+
+---
+
+<div align="center">
+
+![Ownership Notice](../../../../../Assets/Assets/fuzzraiders-Ownership.svg)
+
+![FuzzRaiders Disclaimer](../../../../../Assets//fuzzraiders-disclaimer.svg)
+
+</div>
 
 ---
 

@@ -1,18 +1,27 @@
-<div align="left"> <img src="https://img.shields.io/badge/FuzzRaiders_Team_Member-0a66ff?style=flat-square&logo=github" /> <img src="https://img.shields.io/badge/Stager-0f172a?style=flat-square" /> <img src="https://img.shields.io/badge/🎯%20Role-Internal_Penetration_Tester-1e293b?style=flat-square" /> <img src="https://img.shields.io/badge/📜%20Certification-PNPT_(TCM_Security)-334155?style=flat-square" /> <img src="https://img.shields.io/badge/🟢%20Status-Completed-16a34a?style=flat-square" /> </div>
+<div align="center">
 
-# TCM Security — Capstone: Academy
-
-<div align="left">
-
-![Category: Web App + Linux PrivEsc](https://img.shields.io/badge/Category-Web%20App%20%2B%20Linux%20PrivEsc-red)<br> ![Difficulty: Easy](https://img.shields.io/badge/Difficulty-Easy-blue)<br> ![Platform: TCM Security — PEH Course](https://img.shields.io/badge/Platform-TCM%20Security%20PEH%20Capstone-darkgreen)
+![FuzzRaiders Member Card](../../../../../Assets/fuzzraiders-Member.svg)
 
 </div>
 
 ---
+
+<div align="left">
+
+![Category](https://img.shields.io/badge/Category-Web%20App%20%2B%20Linux%20PrivEsc-red)
+![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue)
+![Platform](https://img.shields.io/badge/Platform-TCM%20Security%20%E2%80%94%20PEH%20Capstone-darkgreen)
+
+</div>
+
+---
+
 ## 📌 Overview
+
 Academy is a deliberately vulnerable Linux machine from TCM Security's Practical Ethical Hacking course. It simulates a real-world attack path from unauthenticated external access to full root compromise.
 
 The attack chain combines:
+
 - Anonymous FTP access exposing student credentials
 - SQL injection on a web application login portal
 - PHP reverse shell via insecure file upload
@@ -39,13 +48,13 @@ ssh             → lateral movement and shell access
 
 ## 🎯 Target Information
 
-|Field|Value|
-|---|---|
-|Target IP|172.20.10.4|
-|Attacker IP|172.20.10.2|
-|OS|Linux academy 4.19.0-16-amd64 (Debian)|
-|Difficulty|Easy|
-|Goal|Achieve root access|
+| Field        | Value                                   |
+| ------------ | --------------------------------------- |
+| Target IP    | 172.20.10.4                             |
+| Attacker IP  | 172.20.10.2                             |
+| OS           | Linux academy 4.19.0-16-amd64 (Debian) |
+| Difficulty   | Easy                                    |
+| Goal         | Achieve root access                     |
 
 ---
 
@@ -61,11 +70,11 @@ nmap -T4 -p- -A 172.20.10.4
 
 **Key findings:**
 
-| Port   | Service | Version                                |
-| ------ | ------- | -------------------------------------- |
+| Port   | Service | Version                                 |
+| ------ | ------- | --------------------------------------- |
 | 21/tcp | FTP     | vsftpd 3.0.3 — anonymous login allowed |
-| 22/tcp | SSH     | OpenSSH 7.9p1 Debian                   |
-| 80/tcp | HTTP    | Apache 2.4.38                          |
+| 22/tcp | SSH     | OpenSSH 7.9p1 Debian                    |
+| 80/tcp | HTTP    | Apache 2.4.38                           |
 
 Port 21 immediately stood out — anonymous FTP login was enabled, and a file `note.txt` was visible in the directory listing.
 
@@ -92,9 +101,9 @@ The note was written by a user signed `jdelta` and addressed to Heath. It reveal
 
 - Grimmie set up a test website for the academy
 - The note contained a raw SQL INSERT statement with student credentials hardcoded:
-    - StudentRegNo: `10201321`
-    - Password: `cd73502828457d15655bbd7a63fb0bc8`
-    - Name: `Rum Ham`
+  - StudentRegNo: `10201321`
+  - Password: `cd73502828457d15655bbd7a63fb0bc8`
+  - Name: `Rum Ham`
 
 This is a clear information disclosure finding — development notes and database credentials were left accessible on an anonymous FTP share.
 
@@ -114,11 +123,11 @@ gobuster dir -u http://172.20.10.4 \
 
 **Directories found:**
 
-|Path|Status|Notes|
-|---|---|---|
-|`/academy`|301|Web application login portal|
-|`/phpmyadmin`|301|Database management panel|
-|`/index.html`|200|Default Apache page|
+| Path          | Status | Notes                       |
+| ------------- | ------ | --------------------------- |
+| `/academy`    | 301    | Web application login portal |
+| `/phpmyadmin` | 301    | Database management panel   |
+| `/index.html` | 200    | Default Apache page         |
 
 ![Directory Enumeration Results](./images/disbuter%20on%20academy.png)
 
@@ -286,16 +295,17 @@ Full system compromise achieved.
 
 ## Proof of Compromise
 
-|Flag|Location|
-|---|---|
-|User flag|`/home/grimmie/` or Desktop|
-|Root flag|`/root/`|
+| Flag      | Location                     |
+| --------- | ---------------------------- |
+| User flag | `/home/grimmie/` or Desktop  |
+| Root flag | `/root/`                     |
 
 **Proof:** Root shell obtained via cron job abuse of `backup.sh`.
 
 ---
 
-##  What This Lab Teaches
+## 🧠 What This Lab Teaches
+
 - Anonymous FTP is never harmless — files on it are publicly readable
 - Insecure file upload with no MIME type or extension validation enables RCE
 - Development config files left in web-accessible directories expose credentials
@@ -305,7 +315,7 @@ Full system compromise achieved.
 
 ---
 
-##  Summary of Attack Chain
+## 🔥 Attack Chain Summary
 
 ```
 Anonymous FTP → note.txt (student creds)
@@ -324,6 +334,7 @@ Cron executes → root shell
 ```
 
 ---
+
 ## 📌 Conclusion
 
 > **Real-world misconfiguration chains are often more dangerous than single vulnerabilities.**
@@ -334,14 +345,16 @@ This is the exact methodology pattern tested in the PNPT exam: enumerate everyth
 
 ---
 
-This work is part of **FuzzRaiders**' structured hands-on training and research program, where every lab, project, and technical study is formally documented, reviewed, and validated to ensure real-world applicability and methodological rigor.
+<div align="center">
 
-Happy hacking 🚀
+![Ownership Notice](../../../../../Assets//fuzzraiders-Ownership.svg)
+
+![FuzzRaiders Disclaimer](../../../../../Assets//fuzzraiders-disclaimer.svg)
+
+</div>
 
 ---
 
 ### Author: Stager
 
 ### Role: Internal Penetration Tester — FuzzRaiders
-
-
