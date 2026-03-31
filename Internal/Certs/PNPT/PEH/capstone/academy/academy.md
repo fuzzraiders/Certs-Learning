@@ -356,5 +356,3 @@ This is the exact methodology pattern tested in the PNPT exam: enumerate everyth
 ---
 
 ### Author: Stager
-
-### Role: Internal Penetration Tester — FuzzRaiders
