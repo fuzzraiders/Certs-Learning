@@ -4,8 +4,6 @@
 
 </div>
 
----
-
 <div align="left">
 
 ![Category](https://img.shields.io/badge/Category-Web%20App%20%2B%20Linux%20PrivEsc-red)
