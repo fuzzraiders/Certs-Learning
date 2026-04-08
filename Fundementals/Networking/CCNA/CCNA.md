@@ -1,8 +1,6 @@
 ![alt text](assets/badges/learning-header.svg)
 
-
-![alt text](assets/badges/learning-header.svg)
-
+![alt text](assets/badges/learning-metadata.svg)
 
 ![alt text](assets/badges/learning-division.svg)
 
@@ -226,7 +224,7 @@ google.com → DNS Server → Returns IP → Connect to Server
 ![alt text](assets/badges/fuzzraiders-disclaimer.svg)
 
 
-# Author: [QQQ](#)
+# Author: [Rufai10](#)
 
 
 ![alt text](assets/badges/fuzzraiders-Ownership.svg)
