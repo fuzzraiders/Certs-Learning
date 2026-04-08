@@ -1,7 +1,5 @@
 ![alt text](assets/badges/learning-header.svg)
 
-![alt text](assets/badges/learning-metadata.svg)
-
 ![alt text](assets/badges/learning-division.svg)
 
 
