@@ -4,12 +4,6 @@
 
 </div>
 
-<div align="left">
-
-![Category: NFS + Web App + File Inclusion + Sudo PrivEsc](https://img.shields.io/badge/Category-NFS%20%2B%20File%20Inclusion%20%2B%20Sudo%20PrivEsc-red)<br> ![Difficulty: Easy-Medium](https://img.shields.io/badge/Difficulty-Easy--Medium-orange)<br> ![Platform: TCM Security — PEH Course](https://img.shields.io/badge/Platform-TCM%20Security%20PEH%20Capstone-darkgreen)
-
-</div>
-
 ---
 
 ## 📌 Overview
@@ -338,14 +332,12 @@ This work is part of **FuzzRaiders**' structured hands-on training and research 
 
 Happy hacking 🚀
 
+---
+
 <div align="center">
 
 ![Ownership Notice](../../../../../Assets/fuzzraiders-Ownership.svg)
 
-![FuzzRaiders Disclaimer](../../../../../Assets//fuzzraiders-disclaimer.svg)
 
 </div>
 
----
-
-### Author: Stager
