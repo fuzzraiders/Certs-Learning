@@ -4,14 +4,6 @@
 
 </div>
 
-<div align="left">
-
-![Category](https://img.shields.io/badge/Category-Web%20App%20%2B%20Linux%20PrivEsc-red)
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue)
-![Platform](https://img.shields.io/badge/Platform-TCM%20Security%20%E2%80%94%20PEH%20Capstone-darkgreen)
-
-</div>
-
 ---
 
 ## 📌 Overview
@@ -344,11 +336,6 @@ This is the exact methodology pattern tested in the PNPT exam: enumerate everyth
 <div align="center">
 
 ![Ownership Notice](../../../../../Assets//fuzzraiders-Ownership.svg)
-
-![FuzzRaiders Disclaimer](../../../../../Assets//fuzzraiders-disclaimer.svg)
-
 </div>
 
----
 
-### Author: Stager
