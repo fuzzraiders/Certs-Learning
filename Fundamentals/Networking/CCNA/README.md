@@ -219,11 +219,13 @@ google.com → DNS Server → Returns IP → Connect to Server
 
 ** > “In networking, small misconfigurations create big problems — precision is everything.”**
 
-![alt text](assets/badges/fuzzraiders-disclaimer.svg)
+---
 
+This work is part of **FuzzRaiders**’ structured hands-on training and research program, where every lab, project, and technical study is formally documented, reviewed, and validated to ensure real-world applicability, methodological rigor and real-world security execution
 
-# Author: [Rufai10](#)
+Happy hacking 🚀
 
+---
 
 ![alt text](assets/badges/fuzzraiders-Ownership.svg)
 

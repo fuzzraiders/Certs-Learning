@@ -1,5 +1,5 @@
 ![header](assets/badges/learning-header.svg)
-![metadata](assets/badges/learning-metadata.svg)
+
 ![division](assets/badges/learning-division.svg)
 
 👋 Introduction
@@ -311,8 +311,13 @@ Together, they form the foundation of low-level programming and systems understa
 
 # Clear logic, strict structure, zero assumptions.
 
-![disclaimer](assets/badges/fuzzraiders-disclaimer.svg)
 
-# Author: [QQQ](#)
+---
+
+This work is part of **FuzzRaiders**’ structured hands-on training and research program, where every lab, project, and technical study is formally documented, reviewed, and validated to ensure real-world applicability, methodological rigor and real-world security execution
+
+Happy hacking 🚀
+
+---
 
 ![Ownership](assets/badges/fuzzraiders-Ownership.svg)

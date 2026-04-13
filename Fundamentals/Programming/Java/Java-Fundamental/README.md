@@ -1,5 +1,6 @@
 ![header](assets/badges/learning-header.svg)
-![metadata](assets/badges/learning-metadata.svg)
+
+
 ![division](assets/badges/learning-division.svg)
 
 
@@ -367,9 +368,12 @@ This foundational knowledge provides the stepping stone toward more advanced dev
 
 
 
+---
 
-![disclaimer](assets/badges/fuzzraiders-disclaimer.svg)
+This work is part of **FuzzRaiders**’ structured hands-on training and research program, where every lab, project, and technical study is formally documented, reviewed, and validated to ensure real-world applicability, methodological rigor and real-world security execution
 
-# Author:[Mysto](https://www.linkedin.com/in/moussa-mohamed-1a15a536b/)
+Happy hacking 🚀
+
+---
 
 ![Ownership](assets/badges/fuzzraiders-Ownership.svg)

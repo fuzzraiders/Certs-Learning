@@ -1,5 +1,5 @@
 ![alt text](assets/badges/learning-header.svg)
-![alt text](assets/badges/learning-metadata.svg)
+
 ![alt text](assets/badges/learning-division.svg)
 
 # 🧠 x86-64 Assembly — Part 2 (Security & Exploits)
@@ -726,11 +726,16 @@ Together:
 As a last word, I would like to say:
 
 **“Once you understand how software breaks, you’ll never look at code the same way again.”**
+
+
+---
+
+This work is part of **FuzzRaiders**’ structured hands-on training and research program, where every lab, project, and technical study is formally documented, reviewed, and validated to ensure real-world applicability, methodological rigor and real-world security execution
+
+Happy hacking 🚀
+
 ---
 
 
-![disclaimer](assets/badges/fuzzraiders-disclaimer.svg)
-
-# Author: [QQQ](#)
 
 ![Ownership](assets/badges/fuzzraiders-Ownership.svg)

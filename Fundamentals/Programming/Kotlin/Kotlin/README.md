@@ -1,5 +1,6 @@
 ![header](assets/badges/learning-header.svg)
-![metadata](assets/badges/learning-metadata.svg)
+
+
 ![division](assets/badges/learning-division.svg)
 
 
@@ -275,9 +276,13 @@ Understanding Kotlin fundamentals helps developers write **cleaner, safer, and m
 
 Like all programming skills, mastery comes through **consistent practice and building real projects**.
 
-![disclaimer](assets/badges/fuzzraiders-disclaimer.svg)
+---
 
-# Author:[Mysto](https://www.linkedin.com/in/moussa-mohamed-1a15a536b/)
+This work is part of **FuzzRaiders**’ structured hands-on training and research program, where every lab, project, and technical study is formally documented, reviewed, and validated to ensure real-world applicability, methodological rigor and real-world security execution
+
+Happy hacking 🚀
+
+---
 
 ![Ownership](assets/badges/fuzzraiders-Ownership.svg)
 

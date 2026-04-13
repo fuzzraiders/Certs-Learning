@@ -1,5 +1,6 @@
 ![header](assets/badges/learning-header.svg)
-![metadata](assets/badges/learning-metadata.svg)
+
+
 ![division](assets/badges/learning-division.svg)
 
 
@@ -300,9 +301,14 @@ Understanding these concepts is essential for building efficient programs and fo
 
 **Programming is not just writing instructions — it is understanding how machines execute them.**
 
----
-![disclaimer](assets/badges/fuzzraiders-disclaimer.svg)
 
-# Author: [QQQ](#)
+
+---
+
+This work is part of **FuzzRaiders**’ structured hands-on training and research program, where every lab, project, and technical study is formally documented, reviewed, and validated to ensure real-world applicability, methodological rigor and real-world security execution
+
+Happy hacking 🚀
+
+---
 
 ![Ownership](assets/badges/fuzzraiders-Ownership.svg)
