@@ -1,6 +1,6 @@
 <div align="center">
 
-![FuzzRaiders Member Card](../../../../../Assets/fuzzraiders-blackpearl.svg)
+![FuzzRaiders Member Card](./Assets/fuzzraiders-blackpearl.svg)
 
 </div>
 
@@ -318,7 +318,7 @@ Happy hacking 🚀
 
 <div align="center">
 
-![Ownership Notice](../../../../../Assets/Assets/fuzzraiders-Ownership.svg)
+![Ownership Notice](./Assets/Assets/fuzzraiders-Ownership.svg)
 
 </div>
 

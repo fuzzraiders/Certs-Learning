@@ -1,6 +1,6 @@
 <div align="center">
 
-![FuzzRaiders Member Card](../../../../../Assets/fuzzraiders-Academy.svg)
+![FuzzRaiders Member Card](./Assets/fuzzraiders-Academy.svg)
 
 </div>
 
@@ -335,7 +335,7 @@ This is the exact methodology pattern tested in the PNPT exam: enumerate everyth
 
 <div align="center">
 
-![Ownership Notice](../../../../../Assets//fuzzraiders-Ownership.svg)
+![Ownership Notice](./Assets//fuzzraiders-Ownership.svg)
 </div>
 
 
