@@ -3,12 +3,6 @@
 ![alt text](assets/badges/learning-division.svg)
 
 
-# 🔐 SSH Brute-Force Attack – Custom Script Execution
-
-This write-up documents my hands-on implementation of an **SSH brute-force attack using a custom Python script**, focusing on how weak authentication mechanisms can be exploited to gain unauthorized access. The lab was conducted in a controlled environment and serves as both a learning record and a practical guide for beginners in offensive security.
-
----
-
 ## 📌 Overview
 
 This tutorial demonstrates the process of brute-forcing SSH authentication using a custom-built script:
