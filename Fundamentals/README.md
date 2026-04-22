@@ -31,26 +31,39 @@ The focus is on mastering **fundamentals first**, before moving into advanced se
 ## 📂 Repository Structure
 
 ```id="fd2k8x"
-Fundamentals/
+Certs-Learning/
 │
-├── Programming/
-│   ├── C/
-│   ├── Python/
-│   ├── C++/
-│   ├── C#/
-│   ├── Java/
-│   ├── Kotlin/
-│   └── Assembly/
+├── Fundamentals/
+│   │
+│   ├── Programming/
+│   │   ├── C/
+│   │   ├── Python/
+│   │   ├── C++/
+│   │   ├── C#/
+│   │   ├── Java/
+│   │   ├── Kotlin/
+│   │   └── Assembly/
+│   │
+│   ├── Scripting/
+│   │   ├── Bash/
+│   │   └── PowerShell/
+│   │
+│   ├── Networking/
+│   │
+│   ├── Linux/
+│   │
+│   └── README.md
 │
-├── Scripting/
-│   ├── Bash/
-│   └── PowerShell/
-│
-├── Networking/
-│
-├── Linux/
+├── Roles/
+│   ├── Web/
+│   ├── Internal/
+│   ├── Mobile/
+│   ├── Exploit/
+│   ├── Evasion/
+│   └── Cloud/
 │
 └── README.md
+
 ```
 
 Each folder represents a **core foundational skill area** required for cybersecurity.
