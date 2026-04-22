@@ -31,36 +31,24 @@ The focus is on mastering **fundamentals first**, before moving into advanced se
 ## 📂 Repository Structure
 
 ```id="fd2k8x"
-Certs-Learning/
+Fundamentals/
 │
-├── Fundamentals/
-│   │
-│   ├── Programming/
-│   │   ├── C/
-│   │   ├── Python/
-│   │   ├── C++/
-│   │   ├── C#/
-│   │   ├── Java/
-│   │   ├── Kotlin/
-│   │   └── Assembly/
-│   │
-│   ├── Scripting/
-│   │   ├── Bash/
-│   │   └── PowerShell/
-│   │
-│   ├── Networking/
-│   │
-│   ├── Linux/
-│   │
-│   └── README.md
+├── Programming/
+│   ├── C/
+│   ├── Python/
+│   ├── C++/
+│   ├── C#/
+│   ├── Java/
+│   ├── Kotlin/
+│   └── Assembly/
 │
-├── Roles/
-│   ├── Web/
-│   ├── Internal/
-│   ├── Mobile/
-│   ├── Exploit/
-│   ├── Evasion/
-│   └── Cloud/
+├── Scripting/
+│   ├── Bash/
+│   └── PowerShell/
+│
+├── Networking/
+│
+├── Linux/
 │
 └── README.md
 
