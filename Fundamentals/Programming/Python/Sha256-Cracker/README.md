@@ -229,10 +229,9 @@ Security ultimately depends on **strong credentials and proper handling**, not j
 
 ---
 
-This work is part of **FuzzRaiders’ structured hands-on training and research program,** where every lab, project, and technical study is formally documented, reviewed, and validated to ensure real-world applicability, methodological rigor, and practical execution.
---
+This work is part of **FuzzRaiders**’ structured hands-on training and research program, where every lab, project, and technical study is formally documented, reviewed, and validated to ensure real-world applicability, methodological rigor and real-world security execution
 
-**Happy hacking 🚀**
+Happy hacking 🚀
 
 
 ![alt text](assets/badges/fuzzraiders-Ownership.svg)
