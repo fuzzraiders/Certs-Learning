@@ -1,0 +1,9 @@
+# Ka dhig SVG-ga mid aan loo tirsan luuqad ahaan (Documentation ahaan uun)
+*.svg linguist-documentation=true
+
+# U sheeg GitHub inuu si qoto dheer u baaro luuqadaha farsamada
+*.c linguist-detectable=true
+*.h linguist-detectable=true
+*.asm linguist-detectable=true
+*.java linguist-detectable=true
+*.py linguist-detectable=true
