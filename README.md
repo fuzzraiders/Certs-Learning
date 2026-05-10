@@ -33,7 +33,7 @@ The focus is on **learning through structure, discipline, and execution** — no
 # 🗂 Structure
 
 ```
-LEARNING/
+Certs-Learning/
 ├── README.md
 │
 ├── Fundamentals
